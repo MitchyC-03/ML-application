@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Daisy Club 🌼</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* 🌼 Inline Styles */
+
+    .flower-gallery {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      padding: 10px;
+      margin: 30px auto;
+      justify-content: center;
+    }
+
+    .flower-card {
+      flex: 0 0 auto;
+      width: 110px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      background: #fffafc;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .flower-card:hover {
+      transform: scale(1.05);
+      border-color: #d16b86;
+    }
+
+    .flower-card img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 5px;
+    }
+
+    .flower-card.active {
+      border: 2px solid #d16b86;
+      background: #ffeef3;
+    }
+
+    #flower-selection {
+      padding: 30px 20px;
+      text-align: center;
+      background-color: #fef8f7;
+    }
+
+    #flower-selection h3 {
+      color: #b95775;
+      font-size: 1.4em;
+    }
+
+    #flower-price-box {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 300px;
+      margin: 20px auto;
+    }
+
+    #flower-price-box input {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      width: 100%;
+    }
+
+    #flower-selection button {
+      background-color: #d16b86;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    #flower-selection button:hover {
+      background-color: #b9466f;
+    }
+
+    .chatbot-section {
+      background: url('https://i.pinimg.com/736x/83/af/00/83af0015f9594faef9d170ef1f42e847.jpg');
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .chatbot-box {
+      max-width: 400px;
+      margin: auto;
+    }
+
+    .chatbot-box textarea {
+      width: 100%;
+      height: 80px;
+      padding: 10px;
+      font-size: 14px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    .chatbot-box button {
+      margin-top: 10px;
+      background: #6d8f6c;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .chatbot-box button:hover {
+      background: #557655;
+    }
+
+    #chat-response {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 🌿 Header -->
+  <header>
+    <div class="nav-container">
+      <h1>The Daisy Patch</h1>
+      <nav>
+        <a href="#">Calendar</a>
+        <a href="#">Donate</a>
+        <a href="#">Shop</a>
+        <a href="#">Members</a>
+        <button class="join-btn">Join</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 👤 Login -->
+  <section class="hero">
+    <div class="login-box">
+      <h2>Member Login</h2>
+      <input type="email" placeholder="Email Address">
+      <input type="password" placeholder="Password">
+      <button class="login-btn">Login</button>
+      <p><a href="#">Forgot password? Sign up</a></p>
+    </div>
+  </section>
+
+  <!-- 📢 Intro -->
+  <section class="intro">
+    <p>The Daisy Patch is a diverse gardening social club celebrating the joy of gardening together.</p>
+    <p>We cultivate connections, share knowledge, and embrace every level of gardening expertise.</p>
+    <button class="join-today">Join Today!</button>
+  </section>
+
+  <!-- ✨ Features -->
+  <section class="features">
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/128/5679/5679366.png" alt="Join Icon">
+      <p><strong>Why Join The Daisy Club?</strong></p>
+    </div>
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/128/1968/1968779.png" alt="Events Icon">
+      <p><strong>Check Out Our Events Calendar!</strong></p>
+    </div>
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/128/18252/18252074.png" alt="Resources Icon">
+      <p><strong>Gardening Resources</strong></p>
+    </div>
+  </section>
+
+  <!-- 🌸 Flower Prediction Assistant -->
+  <section id="flower-selection">
+    <h3>🌺 Choose a Flower</h3>
+
+    <div class="flower-gallery" id="flowerGallery">
+      <div class="flower-card" data-name="Rose Bouquet" data-price="12.99">
+        <img src="https://i.pinimg.com/736x/36/87/17/36871791320057fac6cc33ec9cf42db1.jpg" alt="Rose" />
+        <div>Rose</div>
+      </div>
+      <div class="flower-card" data-name="Lily Arrangement" data-price="15.50">
+        <img src="https://i.pinimg.com/736x/6f/56/53/6f56533ed1826f09ab1b82273bc11c2e.jpg" alt="Lily" />
+        <div>Lily</div>
+      </div>
+      <div class="flower-card" data-name="Orchid Special" data-price="18.25">
+        <img src="https://i.pinimg.com/originals/b2/9d/fc/b29dfca5e9e1f9cb3c1b7541be1be1c4.png" alt="Orchid" />
+        <div>Orchid</div>
+      </div>
+      <div class="flower-card" data-name="Spider Lilies" data-price="14.50">
+        <img src="https://i.pinimg.com/736x/d6/69/56/d669560319648146bd41a4aba88fb8df.jpg" alt="Spider Lilies" />
+        <div>Spider Lily</div>
+      </div>
+    </div>
+
+    <div id="flower-price-box">
+      <input id="flower" placeholder="Flower Type" readonly />
+      <input id="price" placeholder="Price" readonly />
+    </div>
+
+    <button onclick="predictQuantity()">🔮 Predict Quantity</button>
+    <p id="prediction-result"></p>
+  </section>
+
+  <!-- 🤖 Chatbot -->
+  <section class="chatbot-section">
+    <h2>Ask Our Garden Assistant 🌿</h2>
+    <div class="chatbot-box">
+      <textarea id="chat-input" placeholder="Ask about plant care, sunlight, watering..."></textarea>
+      <button onclick="submitQuery()">Ask</button>
+      <p id="chat-response"></p>
+    </div>
+  </section>
+
+  <!-- 💻 Script -->
+  <script>
+    // Flower Selection
+    document.querySelectorAll(".flower-card").forEach(card => {
+      card.addEventListener("click", () => {
+        document.querySelectorAll(".flower-card").forEach(c => c.classList.remove("active"));
+        card.classList.add("active");
+
+        document.getElementById("flower").value = card.dataset.name;
+        document.getElementById("price").value = card.dataset.price;
+      });
+    });
+
+    
+  </script>
+  <script src="sript2.js"></script>
+
+</body>
+</html>
