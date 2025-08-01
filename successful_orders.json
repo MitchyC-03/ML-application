@@ -1,0 +1,585 @@
+{
+  "Flower Details": {
+    "\"flower1\"": {
+      "\"name\"": "\"Rose Bouquet\",",
+      "\"price\"": "$12.99"
+    },
+    "flower2": {
+      "\"name\"": "\"Lily Arrangement\",",
+      "\"price\"": "$15.50"
+    },
+    "flower3": {
+      "\"name\"": "\"Orchid Special\",",
+      "\"price\"": "$18.25"
+    },
+    "flower4": {
+      "\"name\"": "\"Sunflower\",",
+      "\"price\"": "$14.50"
+    },
+    "flower5": {
+      "\"name\"": "\"Tulips\",",
+      "\"price\"": "$10.50"
+    },
+    "flower6": {
+      "\"name\"": "\"Daisy day\",",
+      "\"price\"": "$11.50"
+    },
+    "flower7": {
+      "\"name\"": "\"Spider Lilies\",",
+      "\"price\"": "$14.50"
+    },
+    "flower8": {
+      "\"name\"": "\"Lilies of the valley\",",
+      "\"price\"": "$10.50"
+    },
+    "flower9": {
+      "\"name\"": "",
+      "\"price\"": ""
+    }
+  },
+  "successful_orders": {
+    "2EJCnMVyAcfseWFQUY4TPEddwgC2": {
+      "-OMqw0qb0SlJm2H2jaLS": {
+        "address": "The greenzone apartments ",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 10
+          }
+        ],
+        "orderId": "-OMqw0qb0SlJm2H2jaLS"
+      }
+    },
+    "2uQq2r6JVZOeeDjq0BSA7TeMSwJ2": {
+      "-OMu2B-d6K7EgCVTXTRL": {
+        "address": "Mwea tebere ",
+        "items": [
+          {
+            "name": "Spider Lilies",
+            "price": "14.50",
+            "quantity": 2
+          }
+        ],
+        "orderId": "-OMu2B-d6K7EgCVTXTRL"
+      }
+    },
+    "9WgEVMfowIUvyd9wl6xAeo5Ayda2": {
+      "-ONdDdXvGF-QYu6zyxrw": {
+        "address": "usiu-africa ",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONdDdXvGF-QYu6zyxrw"
+      },
+      "-ONdS_ts1SX4o0JXiaEH": {
+        "address": "Usiu-africa ",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONdS_ts1SX4o0JXiaEH"
+      },
+      "-ONdW0D2HCIsmnImBMaX": {
+        "address": "USIU-AFRICA ",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 2
+          },
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 5
+          },
+          {
+            "name": "Sunflower",
+            "price": "14.50",
+            "quantity": 4
+          },
+          {
+            "name": "Daisy day",
+            "price": "11.50",
+            "quantity": 1
+          },
+          {
+            "name": "Lilies of the valley",
+            "price": "10.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONdW0D2HCIsmnImBMaX"
+      },
+      "-ONdYuqQB6r_7M6RrgHp": {
+        "address": "USIU-AFRICA ",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONdYuqQB6r_7M6RrgHp"
+      }
+    },
+    "AvheT9BsL2cdGjEX3ROQm1iQyTC3": {
+      "-OMlwrc_1cSQIoeieuE3": {
+        "address": "Riara University ",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 2
+          },
+          {
+            "name": "Spider Lilies",
+            "price": "14.50",
+            "quantity": 1
+          },
+          {
+            "name": "Lilies of the valley",
+            "price": "10.50",
+            "quantity": 3
+          }
+        ],
+        "orderId": "-OMlwrc_1cSQIoeieuE3"
+      },
+      "-OMlxBpP-QoUJ1nh0t5a": {
+        "address": "Pofu road",
+        "items": [
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-OMlxBpP-QoUJ1nh0t5a"
+      },
+      "-OMlxST1yZ7grO1-6dRU": {
+        "address": "Riverside close Syokimau ",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-OMlxST1yZ7grO1-6dRU"
+      },
+      "-OMpaB2_zdpARcTtvBg_": {
+        "address": "village market mall",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 1
+          },
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 2
+          }
+        ],
+        "orderId": "-OMpaB2_zdpARcTtvBg_"
+      },
+      "-OMpbt9W1ZvhgovTycBl": {
+        "address": "Thika Road mall",
+        "items": [
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-OMpbt9W1ZvhgovTycBl"
+      },
+      "-OMpxhdwuZ-00FxQHxPT": {
+        "address": "Panorama naivasha",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 4
+          },
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 1
+          },
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 3
+          }
+        ],
+        "orderId": "-OMpxhdwuZ-00FxQHxPT"
+      },
+      "-OMpxpSp_9H9ckJvPWWT": {
+        "address": "USIU AFRICA ",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-OMpxpSp_9H9ckJvPWWT"
+      },
+      "-OMqhOOdyyg_lf7A0xjC": {
+        "address": "Sarit Centre ",
+        "items": [
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 4
+          },
+          {
+            "name": "Sunflower",
+            "price": "14.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-OMqhOOdyyg_lf7A0xjC"
+      },
+      "-OMqhaw_8GtWtOhRSavu": {
+        "address": "USIU AFRICA ",
+        "items": [
+          {
+            "name": "Sunflower",
+            "price": "14.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-OMqhaw_8GtWtOhRSavu"
+      },
+      "-OMqhvcRyobvO0oijy2X": {
+        "address": "Baobab street runda",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 5
+          },
+          {
+            "name": "Tulips",
+            "price": "10.50",
+            "quantity": 1
+          },
+          {
+            "name": "Spider Lilies",
+            "price": "14.50",
+            "quantity": 11
+          },
+          {
+            "name": "Skeleton Flower",
+            "price": "11.50",
+            "quantity": 1
+          },
+          {
+            "name": "Lilies of the valley",
+            "price": "10.50",
+            "quantity": 11
+          },
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 2
+          },
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 4
+          }
+        ],
+        "orderId": "-OMqhvcRyobvO0oijy2X"
+      },
+      "-ONOxnw3dyzAmGSO0Gs4": {
+        "address": "USIU AFRICA ",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 2
+          },
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONOxnw3dyzAmGSO0Gs4"
+      },
+      "-ONOxu_73OrHWhSE_l2O": {
+        "address": "USIU AFRICA ",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 2
+          },
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONOxu_73OrHWhSE_l2O"
+      },
+      "-ONP2qvKq8g7zPIZkV7C": {
+        "address": "Kikuyu kenya",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 3
+          },
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 1
+          },
+          {
+            "name": "Spider Lilies",
+            "price": "14.50",
+            "quantity": 10
+          }
+        ],
+        "orderId": "-ONP2qvKq8g7zPIZkV7C"
+      },
+      "-ONP5A49KeqCCI9L4_ip": {
+        "address": "usiu Africa ",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 3
+          },
+          {
+            "name": "Tulips",
+            "price": "10.50",
+            "quantity": 5
+          },
+          {
+            "name": "Lilies of the valley",
+            "price": "10.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONP5A49KeqCCI9L4_ip"
+      },
+      "-ONPEMqlaWc-Wodf4rQ8": {
+        "address": "usiu-africa",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONPEMqlaWc-Wodf4rQ8"
+      },
+      "-ONPEqM0qKe0PwMqI27Y": {
+        "address": "USIU-AFRICA ",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONPEqM0qKe0PwMqI27Y"
+      },
+      "-ONPFkocJykVTtPs-yjW": {
+        "address": "USIU -africa",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONPFkocJykVTtPs-yjW"
+      },
+      "-ONPHUDvUqltvYK4T-ME": {
+        "address": "usiu-africa",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONPHUDvUqltvYK4T-ME"
+      },
+      "-ONPImQvzBf0Z0crMNZo": {
+        "address": "usiu-africa",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 2
+          }
+        ],
+        "orderId": "-ONPImQvzBf0Z0crMNZo"
+      },
+      "-ONPKFEzYZDqymE8Nei_": {
+        "address": "USIU-AFRICA ",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONPKFEzYZDqymE8Nei_"
+      },
+      "-ONPNcXMOJN2G9OAS585": {
+        "address": "usiu-africa ",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONPNcXMOJN2G9OAS585"
+      },
+      "-ONPPJTQ_gjBF_rG6Yfh": {
+        "address": "usiu-africa",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 3
+          },
+          {
+            "name": "Sunflower",
+            "price": "14.50",
+            "quantity": 2
+          }
+        ],
+        "orderId": "-ONPPJTQ_gjBF_rG6Yfh"
+      },
+      "-ONdDF_3VrrhGDZ7LKxo": {
+        "address": "Usiu Africa ",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 2
+          }
+        ],
+        "orderId": "-ONdDF_3VrrhGDZ7LKxo"
+      },
+      "-ONdE2hPJEOcdwRzknLz": {
+        "address": "Fortis towers",
+        "items": [
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 3
+          }
+        ],
+        "orderId": "-ONdE2hPJEOcdwRzknLz"
+      },
+      "-ONdFbMLxgI69ulmdakc": {
+        "address": "Westlands ",
+        "items": [
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 2
+          }
+        ],
+        "orderId": "-ONdFbMLxgI69ulmdakc"
+      },
+      "-ONdHzKZIhHm1mSubqb3": {
+        "address": "Usiu africa",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 2
+          }
+        ],
+        "orderId": "-ONdHzKZIhHm1mSubqb3"
+      },
+      "-ONdWo8Y79Pv6TnRNdol": {
+        "address": "USIU-AFRICA ",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-ONdWo8Y79Pv6TnRNdol"
+      },
+      "-ONtbqdTw2B1HKj97gMC": {
+        "address": "Usiu Africa ",
+        "items": [
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 2
+          },
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 2
+          }
+        ],
+        "orderId": "-ONtbqdTw2B1HKj97gMC"
+      }
+    },
+    "H3brJKr8szWDQ4quIS0ROjSGd062": {
+      "-ONct_pAbDI6xTB5NAc3": {
+        "address": "USIU GATE A",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 4
+          },
+          {
+            "name": "Lily Arrangement",
+            "price": "15.50",
+            "quantity": 5
+          },
+          {
+            "name": "Orchid Special",
+            "price": "18.25",
+            "quantity": 11
+          },
+          {
+            "name": "Spider Lilies",
+            "price": "14.50",
+            "quantity": 8
+          }
+        ],
+        "orderId": "-ONct_pAbDI6xTB5NAc3"
+      }
+    },
+    "nAEEFzTKwKcQi0FwD0ZEzU4S7Zf2": {
+      "-OMlxK4fA1qm0nE8f9Nx": {
+        "address": "USIU Africa ",
+        "items": [
+          {
+            "name": "Rose Bouquet",
+            "price": "12.99",
+            "quantity": 1
+          }
+        ],
+        "orderId": "-OMlxK4fA1qm0nE8f9Nx"
+      }
+    }
+  }
+}
